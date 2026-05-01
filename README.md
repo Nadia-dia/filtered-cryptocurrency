@@ -9,7 +9,7 @@
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate
+source venv/Scripts/activate
 pip install fastapi uvicorn httpx python-dotenv
 uvicorn app.main:app --reload
 ```
